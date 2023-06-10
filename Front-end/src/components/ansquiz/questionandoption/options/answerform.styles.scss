@@ -1,0 +1,26 @@
+.options-container {
+    user-select: none;
+    padding: 5%;
+    height: 80vh;
+    font-size: 22px;
+    .form-items-container {
+        margin-top: 20px;
+        .options{
+            margin-top:10px;
+        }
+        .form-btn-container {
+            width:70%;
+            position: absolute;
+            bottom :10vh;
+            display:flex;
+            justify-content: space-around;
+            .next-prev-btn{
+                display: flex;
+                column-gap: 10%;
+            }
+            #mark-review-btn {
+                background-color: #ffa500;
+            }
+        }
+    }
+}

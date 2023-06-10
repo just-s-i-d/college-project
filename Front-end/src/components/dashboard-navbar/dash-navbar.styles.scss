@@ -1,0 +1,26 @@
+.dashboard-nav-container {
+    position:fixed;
+    user-select: none;
+    font-size: 24px;
+    padding: 14px 20px 10px 40px;
+    color: white;
+    width: 100%;
+    background-color: #0d2d52;
+    background-color: #1b4332;
+    display: flex;
+    justify-content: space-between;
+    .items{
+        min-width: 300px;
+        margin-top: 10px;
+    }
+    .right-items-container{
+       
+       display:grid;
+       grid-template-columns: repeat(2,50%);
+       column-gap: 50px;
+       margin-right: 10px;
+    }
+}
+.open-close{
+    cursor: pointer;
+}

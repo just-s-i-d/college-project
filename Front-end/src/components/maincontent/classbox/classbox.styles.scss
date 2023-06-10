@@ -1,0 +1,25 @@
+.content-box {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    background-color: #0d2d52;
+    background-color: #1b4332;
+    transition: 0.2s all ease-in-out;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    .three-dots{
+        color:rgba(255,255,255,0.7);
+        position:absolute;
+        right:5%;
+        top:8%;
+       
+    }
+}

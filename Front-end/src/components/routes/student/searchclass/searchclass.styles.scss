@@ -1,0 +1,57 @@
+.join-class-container {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    // backdrop-filter: blur(2px);
+    animation: addClassAnimation 0.3s ease-in-out;
+
+    @keyframes addClassAnimation {
+        from {
+            transform: scale(0);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    .class-box-container {
+        position: inherit;
+        width:350px;
+        height:200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        color: #0d2d52;
+        // background-color: #0d2d52;
+        background-color: #b7e4c7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 60px 20px;
+
+        h2 {
+            font-weight: 500;
+        }
+
+        .form-items-container {
+            display: flex;
+            row-gap: 20px;
+            flex-direction: column;
+
+            Input {
+                border:none;
+                width: 100%;
+            }
+
+            .btns-container {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}

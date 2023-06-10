@@ -1,0 +1,60 @@
+.add-question-page-container{
+    
+    #final-submit{
+       position: absolute;
+        bottom:20px;
+        right:30%;
+        float:right;
+    }
+}
+
+.form-ques-container {
+    position: relative;
+    width: 80%;
+    .form-items-container {
+        
+        margin:0 20px;
+        padding: 40px 50px 0 40px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        label {
+            font-size: 20px;
+            margin: 20px 0 5px;
+        }
+
+        textarea {
+            padding:10px;
+            font-size: 18px;
+            border-radius: 10px;
+            width:50%;
+        }
+
+        input {
+            outline: none;
+            width: 20%;
+            border-radius: 6px;
+            height: 30px;
+            font-size: 14px;
+            padding: 15px;
+        }
+        select{
+            width:220px;
+            font-size: 16px;
+            border-radius: 10px;
+            padding:2px;
+        }
+    }
+    .form-btn-container{
+        margin-top: 60px;
+        display:flex;
+        justify-content: center;
+        .btns{
+            display: flex;
+            column-gap: 25px;
+        }
+        
+    }
+
+}

@@ -1,0 +1,23 @@
+.ques-label-container{
+    display:flex;
+    font-size: 20px;
+    column-gap: 10px;
+    .circle{
+        display:inline-block;
+        width:24px;
+        border-radius: 50%;
+        height:24px;
+        &.attempt{
+            background-color:#008000;
+        }
+        &.mark{
+            background-color:#ffa500;
+        }
+        &.notAttempt{
+            background-color:#ff0000;
+        }
+        &.notVisited{
+            background-color:#808080;
+        }
+    }
+}

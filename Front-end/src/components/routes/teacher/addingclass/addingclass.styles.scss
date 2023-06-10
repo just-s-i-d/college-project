@@ -1,0 +1,58 @@
+.add-class-container {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    // backdrop-filter: blur(1px);
+    
+    animation: addClassAnimation 0.3s ease-in-out;
+
+    @keyframes addClassAnimation {
+        from {
+            transform: scale(0);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    .form-container {
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        color: #0d2d52;
+        // background-color: #0d2d52;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 60px 30px;
+
+        background: #b7e4c7;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+        h2 {
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .items-container {
+            display: flex;
+            row-gap: 20px;
+            flex-direction: column;
+
+            .btn-container {
+                display: flex;
+                justify-content: space-around;
+            }
+            Input {
+                border:none;
+                width: 100%;
+            }
+        }
+    }
+}

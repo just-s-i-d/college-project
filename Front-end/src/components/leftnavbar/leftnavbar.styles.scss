@@ -1,0 +1,40 @@
+.left-navbar-container {
+    position: fixed;
+    top: 10vh;
+    animation: openclose 0.3s ease-in-out;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    padding-top: 30px;
+    // padding: 20px;
+    background-color: #0d2d52;
+    background-color: #1b4332;
+    width: 20%;
+    height: 90vh;
+    font-size: 24px;
+
+    @keyframes openclose {
+        from {
+            width: 0px;
+        }
+
+        to {
+            width: 20%;
+        }
+    }
+.links{
+    cursor: pointer;
+}
+    .log-out {
+        cursor: pointer;
+        box-sizing: border-box;
+        border-top: 2px solid white;
+        color: white;
+        position: absolute;
+        width: 100%;
+        padding:15px 0  0;
+        bottom: 25px;
+    }
+}

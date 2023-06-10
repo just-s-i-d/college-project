@@ -1,0 +1,14 @@
+
+.quiz-content {
+    background-color: #74c69d;
+   position:relative;
+   height:90vh;
+   top:10vh;
+    .quiz-content-container {
+        margin-left: 50px;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        gap: 50px;
+    }
+}

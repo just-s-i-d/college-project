@@ -1,0 +1,47 @@
+.quiz-popup-box-container {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    // backdrop-filter: blur(2px);
+    animation: addClassAnimation 0.3s ease-in-out;
+
+    @keyframes addClassAnimation {
+        from {
+            transform: scale(0);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+
+    .add-quiz-form-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #0d2d52;
+        background-color: #b7e4c7;
+        padding: 10px 20px;
+        border-radius: 20px;
+        
+        h2 {
+            text-align: center;
+            font-size: 26px;
+            font-weight: 500;
+        }
+
+        .form-container {
+            min-width: 60%;
+            font-size: 18px;
+
+            .btns-container {
+                display: flex;
+                justify-content: center;
+                column-gap: 40px;
+                margin: 30px 0 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.profile-dropdown-container {
+    font-size: 18px;
+    position: absolute;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #0d2d52;
+    top: 10vh;
+    z-index: 20;
+    animation: dropdown 0.1s linear;
+    @keyframes dropdown {
+        from {
+            top: 8vh;
+        }
+
+        to {
+            top: 10vh;
+        }
+    }
+    span{
+        cursor: pointer;
+    }
+}

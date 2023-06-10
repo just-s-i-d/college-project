@@ -1,0 +1,18 @@
+.main-container{
+    background-color: #74c69d;
+    height:100vh;
+}
+.main-content {
+    position: relative;
+    top: 10vh;
+    padding: 50px;
+    margin-left: 20px;
+    
+    .main-content-container {
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        gap: 50px;
+       
+    }
+}

@@ -1,0 +1,92 @@
+
+.card {
+    display: inline-block;
+    color:white;
+    // position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: #40916c;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 25px #1b4332;
+}
+
+.img-bx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translateY(25px) scale(0.5);
+    transform-origin: top;
+}
+
+.img-bx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.content .detail {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content .detail h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.content .detail h2 span {
+    font-size: 0.5em;
+    font-weight: 500;
+   
+}
+
+.sci {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+}
+.sci{
+    margin-right:25px;
+    display:flex;
+    column-gap: 30px;
+}
+.sci li {
+    list-style: none;
+    margin: 4px;
+    i{
+        color:white;
+    }
+}
+
+
+// .sci li a:hover {
+//     background: #74C69D;
+//     color: #fff;
+// }

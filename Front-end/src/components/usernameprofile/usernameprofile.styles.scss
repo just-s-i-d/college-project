@@ -1,0 +1,11 @@
+.navbar-right-container {
+    .name {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    float:right;
+    width:15%;
+    display:flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}

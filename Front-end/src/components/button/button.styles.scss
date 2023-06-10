@@ -1,0 +1,24 @@
+.button-container {
+    color: white;
+    min-width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &.default {
+        background-color: #40916c;
+    }
+
+    &.styled {
+        background-color: #0d2d52;
+    }
+
+    &.submit {
+        background-color: #ff7d7d;
+    }
+    &:disabled{
+        background-color: grey;
+    }
+}
